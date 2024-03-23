@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div class="modal-overlay" :class="{ 'active': isInvestment }" @click="closeModal"></div>
+
     <div class="modal-investment" v-if="isInvestment">
       <div class="investment">
         <div class="addInvestment"><text>Add Investment</text></div>
@@ -68,6 +70,7 @@
       </div>
       
     </div>
+
     <CashInputModal v-model:isOpened="isCash" @isEmitCash="setDataCash" />
     <CPFInputModal v-model:isOpened="isCPF" @isEmitCPF="setDataCPF" />
     <BondsInputModal v-model:isOpened="isBonds" @isEmitBonds="setDataBonds" />
@@ -141,6 +144,10 @@ export default {
       }
 
       this.$emit("clicked", false);
+    },
+
+    closeModal() {
+      this.isInvestment = false; // This will hide both the modal and the overlay
     },
 
     setDataCash(data) {
