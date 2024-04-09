@@ -69,12 +69,12 @@
           </div>
         </div>
         <div class="forms">
-          <label>Current price</label>
+          <label>Total Holdings</label>
           
               <input
               v-model="amount"
               type="number"
-              placeholder="Enter current price"
+              placeholder="Enter total holdings"
               class="selectInputs"
             />
           
@@ -163,6 +163,7 @@ export default {
         }
 
         console.log("successful");
+        this.close();
       }
     },
   },
