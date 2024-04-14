@@ -1,8 +1,17 @@
 # ShaShing App
-Done by:
-Simon, Ian, Zandra, Evan, Kyle.
 
-This template should help get you started developing with Vue 3 in Vite.
+<img id="duck-ui" width = "300" src="https://github.com/BT3103AppDev1/l2-final-term-project-l2-group-4/blob/main/public/logo.jpg?raw=true" alt="Duck UI">
+
+## Executive Summary
+
+## Screenshots
+
+## Contributors 
+- Simon See Yongsheng (Developer + SCRUM Master)
+- Tay Xinyu, Zandra (Developer + Product Owner)
+- Lao Kyle Daniel Kin (Developer)
+- Evan Darren Christanto (Developer)
+- Ian Wong Han Li (Developer)
 
 ## Recommended IDE Setup
 
