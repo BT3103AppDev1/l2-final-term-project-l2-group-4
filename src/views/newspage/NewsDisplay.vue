@@ -66,10 +66,10 @@ export default {
         async getArticles(query) {
 
             var url = 'https://newsapi.org/v2/everything?' +
-                'q=' + query + '&' +
-                'sortBy=publishedAt&' +
-                'language=en&' +
-                'excludeDomains=yahoo.com&'+
+                  'q=' + query + '&' +
+                  'sortBy=publishedAt&' +
+                  'language=en&' +
+                  'excludeDomains=yahoo.com&' +
                 'apiKey=088092c2cff740e3b9dc4597a812f7d5';
 
             var req = new Request(url);
@@ -95,7 +95,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 
 .card-container {
   display: flex;
