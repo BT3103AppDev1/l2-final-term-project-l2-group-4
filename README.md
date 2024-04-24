@@ -8,9 +8,6 @@ With compiled financial information across multiple trading platforms and variou
 
 Our app addresses the growing demand for efficient investment strategies with a focus on user experience and holistic portfolio oversight. By incorporating CPF and cash holdings alongside traditional investments, our solution offers unparalleled convenience and insight, positioning it as a preferred choice for investors aiming to optimise their financial portfolios.
 
-## Screenshots
-
-
 ## Contributors 
 - Simon See Yongsheng (Developer + SCRUM Master)
 - Tay Xinyu, Zandra (Developer + Product Owner)
