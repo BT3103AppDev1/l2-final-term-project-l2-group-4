@@ -1,5 +1,5 @@
 # ShaShing App
-<img id="duck-ui" width = "300" src="https://github.com/BT3103AppDev1/l2-final-term-project-l2-group-4/blob/main/public/logo.jpg?raw=true" alt="Duck UI">
+<img id="duck-ui" width = "300" src="https://github.com/BT3103AppDev1/l2-final-term-project-l2-group-4/blob/main/public/logo.png?raw=true" alt="Duck UI">
 
 ## Executive Summary
 Tracking and accessing personal investments poses a challenge for Singaporean investors, who often spread their portfolios across multiple platforms and asset classes. As a centralised platform for tracking stocks, bonds, Central Provident Fund (CPF) and cash holdings in real-time, our web app simplifies the investment process. 
